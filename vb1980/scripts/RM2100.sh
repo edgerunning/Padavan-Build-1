@@ -6,7 +6,7 @@
 
 lan_ip="192.168.6"                          # LAN 地址 别写后面的 .1
 default_path="./user/shared"                # 默认配置路径
-config="./configs/templates/K2P.config"     # 默认配置文件
+config="./configs/templates/RM2100.config"     # 默认配置文件
 
 echo "修改 LAN IP 地址"
 sed -i "s/192.168.2/$lan_ip/g" $default_path/defaults.h
